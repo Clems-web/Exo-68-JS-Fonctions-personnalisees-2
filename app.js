@@ -5,5 +5,5 @@ function randomNumber() {
 }
 
 for (let x = 0; x <= para.length; x++) {
-    para[x].innerHTML = randomNumber();
+    para[x].innerHTML = randomNumber().toString();
 }
